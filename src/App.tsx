@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
   Layout, 
   Menu as AntMenu, 
@@ -17,8 +17,7 @@ import {
 import { 
   PawPrint, 
   Video, 
-  Users, 
-  Figma, 
+  Users,
   LayoutTemplate, 
   Heart, 
   Info,
