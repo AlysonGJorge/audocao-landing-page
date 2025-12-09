@@ -68,7 +68,7 @@ const teamMembers: TeamMember[] = [
     photo: joao,
     link: "https://github.com/jgtsuchiya",
   },
-  { name: "Jane Kelli Sousa Pessoa", role: "Desenvolvedor", photo: jane },
+  { name: "Jane Kelli Sousa Pessoa", role: "Desenvolvedor", photo: jane, link: "https://github.com/janekelli" },
   {
     name: "Cleberson",
     role: "CEO",
@@ -338,7 +338,7 @@ export default function App() {
                         width: "100%",
                         height: "100%",
                       }}
-                      src="https://www.youtube.com/embed/dummy-video"
+                      src="https://drive.google.com/file/d/1F14uqLFo6l9v4qjxJeTUqXdca7Nl8lTk/preview"
                       title="Vídeo Conceito"
                       frameBorder={0}
                       allowFullScreen
@@ -353,9 +353,6 @@ export default function App() {
                         textAlign: "center",
                       }}
                     >
-                      <Text style={{ color: "white" }}>
-                        [Insira aqui o Embed do seu Vídeo]
-                      </Text>
                     </div>
                   </div>
                 </Col>
